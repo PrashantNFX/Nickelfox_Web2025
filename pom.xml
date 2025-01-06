@@ -93,14 +93,6 @@
                 <source>1.8</source>
                 <target>1.8</target>
             </configuration>
-<configuration>
-  <forkCount>1</forkCount>
-  <reuseForks>false</reuseForks>
-</configuration>
-
-		<configuration>
-  <forkMode>never</forkMode>
-</configuration>
 
 		
         </plugin>
@@ -110,17 +102,15 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
-     
-    <plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-surefire-plugin</artifactId>
-  <version>3.1.2</version>
-  <configuration>
-    <forkedProcessTimeoutInSeconds>600</forkedProcessTimeoutInSeconds>
-    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
-  </configuration>
+ 
+	        <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+			   <version>3.5.2</version>
+    <configuration>
+        <useSystemClassLoader>false</useSystemClassLoader>
+    </configuration>
 </plugin>
-
 
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
