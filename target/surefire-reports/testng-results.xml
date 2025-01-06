@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-06T17:00:15 IST" name="Suite" finished-at="2025-01-06T17:07:39 IST" duration-ms="444197">
+    <groups>
+    </groups>
+    <test started-at="2025-01-06T17:00:15 IST" name="Test" finished-at="2025-01-06T17:07:39 IST" duration-ms="444197">
+      <class name="com.nickelfox.testcases.Industries_Page_Test">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nickelfox.testcases.Industries_Page_Test@703580bf]" started-at="2025-01-06T17:03:11 IST" name="beforeMethod" finished-at="2025-01-06T17:03:41 IST" duration-ms="29732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="go_contact_page()[pri:1, instance:com.nickelfox.testcases.Industries_Page_Test@703580bf]" started-at="2025-01-06T17:03:41 IST" name="go_contact_page" finished-at="2025-01-06T17:04:30 IST" duration-ms="48344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_contact_page -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nickelfox.testcases.Industries_Page_Test@703580bf]" started-at="2025-01-06T17:04:30 IST" name="tearDown" finished-at="2025-01-06T17:04:35 IST" duration-ms="5011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=go_contact_page status=SUCCESS method=Industries_Page_Test.go_contact_page()[pri:1, instance:com.nickelfox.testcases.Industries_Page_Test@703580bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nickelfox.testcases.Industries_Page_Test -->
+      <class name="com.nickelfox.testcases.Contact_With_Us_Page_Test">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nickelfox.testcases.Contact_With_Us_Page_Test@3e2e18f2]" started-at="2025-01-06T17:01:19 IST" name="beforeMethod" finished-at="2025-01-06T17:01:32 IST" duration-ms="13814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyContactFormSubmission()[pri:1, instance:com.nickelfox.testcases.Contact_With_Us_Page_Test@3e2e18f2]" started-at="2025-01-06T17:01:32 IST" name="verifyContactFormSubmission" finished-at="2025-01-06T17:02:04 IST" duration-ms="31734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactFormSubmission -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nickelfox.testcases.Contact_With_Us_Page_Test@3e2e18f2]" started-at="2025-01-06T17:02:04 IST" name="tearDown" finished-at="2025-01-06T17:02:09 IST" duration-ms="5015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactFormSubmission status=SUCCESS method=Contact_With_Us_Page_Test.verifyContactFormSubmission()[pri:1, instance:com.nickelfox.testcases.Contact_With_Us_Page_Test@3e2e18f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nickelfox.testcases.Contact_With_Us_Page_Test -->
+      <class name="com.nickelfox.testcases.Career_Page_Test">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nickelfox.testcases.Career_Page_Test@1622f1b]" started-at="2025-01-06T17:06:03 IST" name="beforeMethod" finished-at="2025-01-06T17:06:22 IST" duration-ms="18641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test_Career_Form()[pri:1, instance:com.nickelfox.testcases.Career_Page_Test@1622f1b]" started-at="2025-01-06T17:06:22 IST" name="Test_Career_Form" finished-at="2025-01-06T17:07:34 IST" duration-ms="72101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Career_Form -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nickelfox.testcases.Career_Page_Test@1622f1b]" started-at="2025-01-06T17:07:34 IST" name="tearDown" finished-at="2025-01-06T17:07:39 IST" duration-ms="5004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Career_Form status=SUCCESS method=Career_Page_Test.Test_Career_Form()[pri:1, instance:com.nickelfox.testcases.Career_Page_Test@1622f1b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nickelfox.testcases.Career_Page_Test -->
+      <class name="com.nickelfox.testcases.Blog_Page_Test">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nickelfox.testcases.Blog_Page_Test@63021689]" started-at="2025-01-06T17:02:45 IST" name="beforeMethod" finished-at="2025-01-06T17:02:59 IST" duration-ms="14018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="blogTest()[pri:0, instance:com.nickelfox.testcases.Blog_Page_Test@63021689]" started-at="2025-01-06T17:02:59 IST" name="blogTest" finished-at="2025-01-06T17:03:06 IST" duration-ms="7654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nickelfox.testcases.Blog_Page_Test@63021689]" started-at="2025-01-06T17:03:06 IST" name="tearDown" finished-at="2025-01-06T17:03:11 IST" duration-ms="5010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=blogTest status=SUCCESS method=Blog_Page_Test.blogTest()[pri:0, instance:com.nickelfox.testcases.Blog_Page_Test@63021689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nickelfox.testcases.Blog_Page_Test -->
+      <class name="com.nickelfox.testcases.Success_Stories_Page_Test">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nickelfox.testcases.Success_Stories_Page_Test@470f1802]" started-at="2025-01-06T17:02:09 IST" name="beforeMethod" finished-at="2025-01-06T17:02:25 IST" duration-ms="15443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Stories()[pri:1, instance:com.nickelfox.testcases.Success_Stories_Page_Test@470f1802]" started-at="2025-01-06T17:02:25 IST" name="Stories" finished-at="2025-01-06T17:02:40 IST" duration-ms="15130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stories -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nickelfox.testcases.Success_Stories_Page_Test@470f1802]" started-at="2025-01-06T17:02:40 IST" name="tearDown" finished-at="2025-01-06T17:02:45 IST" duration-ms="5009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Stories status=SUCCESS method=Success_Stories_Page_Test.Stories()[pri:1, instance:com.nickelfox.testcases.Success_Stories_Page_Test@470f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nickelfox.testcases.Success_Stories_Page_Test -->
+      <class name="com.nickelfox.testcases.Live_Chat_Test">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nickelfox.testcases.Live_Chat_Test@3e92efc3]" started-at="2025-01-06T17:04:35 IST" name="beforeMethod" finished-at="2025-01-06T17:04:49 IST" duration-ms="14614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test()[pri:1, instance:com.nickelfox.testcases.Live_Chat_Test@3e92efc3]" started-at="2025-01-06T17:04:49 IST" name="test" finished-at="2025-01-06T17:05:58 IST" duration-ms="69146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nickelfox.testcases.Live_Chat_Test@3e92efc3]" started-at="2025-01-06T17:05:58 IST" name="tearDown" finished-at="2025-01-06T17:06:03 IST" duration-ms="5005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=Live_Chat_Test.test()[pri:1, instance:com.nickelfox.testcases.Live_Chat_Test@3e92efc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nickelfox.testcases.Live_Chat_Test -->
+      <class name="com.nickelfox.testcases.About_Test_case">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nickelfox.testcases.About_Test_case@cd3fee8]" started-at="2025-01-06T17:00:15 IST" name="beforeMethod" finished-at="2025-01-06T17:00:34 IST" duration-ms="19001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyContactFormSubmissionAboutPage()[pri:1, instance:com.nickelfox.testcases.About_Test_case@cd3fee8]" started-at="2025-01-06T17:00:34 IST" name="verifyContactFormSubmissionAboutPage" finished-at="2025-01-06T17:01:14 IST" duration-ms="39674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactFormSubmissionAboutPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nickelfox.testcases.About_Test_case@cd3fee8]" started-at="2025-01-06T17:01:14 IST" name="tearDown" finished-at="2025-01-06T17:01:19 IST" duration-ms="5016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactFormSubmissionAboutPage status=SUCCESS method=About_Test_case.verifyContactFormSubmissionAboutPage()[pri:1, instance:com.nickelfox.testcases.About_Test_case@cd3fee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nickelfox.testcases.About_Test_case -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

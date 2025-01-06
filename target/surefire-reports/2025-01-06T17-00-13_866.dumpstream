@@ -1,0 +1,5 @@
+# Created at 2025-01-06T17:00:14.093
+Boot Manifest-JAR contains absolute paths in classpath 'D:\D\NIckelfox_2024\Nickelfox\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
