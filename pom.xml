@@ -93,6 +93,16 @@
                 <source>1.8</source>
                 <target>1.8</target>
             </configuration>
+<configuration>
+  <forkCount>1</forkCount>
+  <reuseForks>false</reuseForks>
+</configuration>
+
+		<configuration>
+  <forkMode>never</forkMode>
+</configuration>
+
+		
         </plugin>
    
         <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
