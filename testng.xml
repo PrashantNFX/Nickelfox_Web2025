@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-       <class name="com.nickelfox.baseclass.BaseClass"/>
+    
         <class name="com.nickelfox.testcases.About_Test_case"/>
      <class name="com.nickelfox.testcases.Contact_With_Us_Page_Test"/>
      
@@ -17,6 +17,7 @@
      <class name="com.nickelfox.testcases.Tech_Stack_Page_Test"/>
       <class name="com.nickelfox.testcases.Service_Test_case"/>
       <class name="com.nickelfox.testcases.Blog_Page_Test"/>
+         <class name="com.nickelfox.baseclass.BaseClass"/>
       <class name="com.nickelfox.testcases.Career_Page_Test"/>
      <class name="com.nickelfox.testcases.Career_Page_Test"/>
       <class name="com.nickelfox.testcases.Contact_With_Us_Page_Test"/>
