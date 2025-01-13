@@ -138,7 +138,7 @@
 			     <forkCount>3</forkCount>
       <skipTests>false</skipTests>
       <reuseForks>false</reuseForks>
-      <testFailureIgnore>true</testFailureIgnore>
+      <testFailureIgnore>false</testFailureIgnore>
    </configuration>
           
                 </plugin>
