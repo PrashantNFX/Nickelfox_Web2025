@@ -135,6 +135,11 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
+			     <forkCount>3</forkCount>
+      <skipTests>false</skipTests>
+      <reuseForks>false</reuseForks>
+      <testFailureIgnore>true</testFailureIgnore>
+   </configuration>
                     </configuration>
                 </plugin>
   
