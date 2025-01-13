@@ -130,22 +130,16 @@
   <plugin>
    <groupId>org.apache.maven.plugins</groupId>
    <artifactId>maven-surefire-plugin</artifactId>
-   <version>3.0.0-M3</version>
-   <dependencies>
-      <dependency>
-         <groupId>org.apache.maven.surefire</groupId>
-         <artifactId>surefire-junit47</artifactId>
-         <version>3.0.0-M3</version>
-      </dependency>
-   </dependencies>
+   <version>3.0.0-M5</version>
+  
    <configuration>
       <useSystemClassLoader>false</useSystemClassLoader>
       <suiteXmlFiles>
          <suiteXmlFile>testng.xml</suiteXmlFile>
       </suiteXmlFiles>
       <forkCount>3</forkCount>
-      <skipTests>true</skipTests>
-      <reuseForks>true</reuseForks>
+      <skipTests>false</skipTests>
+      <reuseForks>false</reuseForks>
       <testFailureIgnore>true</testFailureIgnore>
    </configuration>
 </plugin>
