@@ -25,7 +25,7 @@ public class Service_Test_case extends BaseClass{
 	
 	
 	
-	//@Test(priority = 1, enabled = true)
+	@Test(priority = 1, enabled = true)
 	public void VerifySrvAppDsgnrGetTouchForm() throws InterruptedException, AWTException {
 		
 		 spo= new Service_Page(driver);
@@ -35,6 +35,7 @@ public class Service_Test_case extends BaseClass{
 		 spo.clickSrvAppDsgnr();
 		 spo.clickSrvAGetTouch();
 		 cp.fillContactForm(driver);
+		 cp.subtBTN();
 		 cp.checkSuccesfulMsg(driver);		 
 		
 	}
@@ -57,7 +58,7 @@ public class Service_Test_case extends BaseClass{
 		 spo.mouseHwrOnService(driver);
 		 spo.clickSrvAppDsgnr();
 		 spo.clickSrvAGetTouch();
-		 
+		 cp.subtBTN();
 		 cp.verifyInvalidEmailVld(driver);
 		
 	}
